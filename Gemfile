@@ -37,7 +37,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0.0'
 
