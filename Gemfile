@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.6'
+gem 'rails', '5.2.4.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.5'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.7.1'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Use twitter bootstrap sass
 gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
+gem 'autoprefixer-rails', '>= 5.2.1'
+gem 'font-awesome-rails', '>= 4.7.0.4'
 
 group :development do
   gem 'spring'
@@ -37,12 +37,12 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'devise'
-gem 'carrierwave'
-gem 'friendly_id', '~> 5.0.0'
+gem 'devise', '>= 4.4.2'
+gem 'carrierwave', '>= 0.10.0'
+gem 'friendly_id', '~> 5.0.5'
 
 gem 'will_paginate', '~> 3.0.6'
-gem 'public_activity'
+gem 'public_activity', '>= 1.4.2'
 
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'acts_as_commentable'
