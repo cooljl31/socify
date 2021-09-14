@@ -19,7 +19,7 @@ gem 'font-awesome-rails'
 
 group :development do
   gem 'spring'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'letter_opener'
   gem 'guard'
   gem 'guard-rspec', '~> 4.2.8'
