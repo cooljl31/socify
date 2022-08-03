@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.6'
+gem 'rails', '5.2.8.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -39,7 +39,7 @@ end
 
 gem 'devise'
 gem 'carrierwave'
-gem 'friendly_id', '~> 5.0.0'
+gem 'friendly_id', '~> 5.0.5'
 
 gem 'will_paginate', '~> 3.0.6'
 gem 'public_activity'
